@@ -5,7 +5,8 @@
 https://elixir-lang.org/install.html
 
 
-```
+```shell
+
 wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb
 
 sudo apt-get update
@@ -23,7 +24,8 @@ IO.puts "Hello World!"
 
 - Reading a File, Atoms and Tuples | Zero to Hero in Elixir #3
 
-```
+```shell
+
 :ok
 
 :whatever_I_want
@@ -34,7 +36,7 @@ IO.puts "Hello World!"
 
 - Modules & Functions | Zero to Hero in Elixir #4
 
-```
+```shell
 defmodule Alch do
     def hello(stuff) do
         stuff
@@ -54,7 +56,7 @@ Alch.read_my_file("my_file")
 
 - Understanding Maps | Zero to Hero in Elixir #5
 
-```
+```shell
 my_app = %{"key" => "value"}
 
 my_other_app = %{:my_key => "some stuff"}
@@ -69,7 +71,7 @@ nexted_maps[:key][:key_inside]
 
 - Understanding Pattern Matching | Zero to Hero in Elixir #6
 
-```
+```shell
 foo = 3
 
 bar = "whatever"
@@ -101,7 +103,7 @@ Alch.mapping(%{"key" => "my super stuff"})
 
 - Mastering the Pipe Operator | Zero to Hero in Elixir #7
 
-```
+```shell
 input = "halo@Gmail.com,HALO@Gmail.com,halo2@GAMIL.com"
 
 String.downcase input
@@ -121,7 +123,7 @@ input |> String.downcase() |> IO.inspect(label: "hi") |> String.split(",")
 
 - Guess the Word | Zero to Hero in Elixir #8
 
-```
+```shell
 # "bread"
 
 hints = "flour, water, yeast, bakery"
